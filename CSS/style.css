@@ -19,13 +19,13 @@ header{
     width: 33rem;
 }
 .row{
-    
+    position: absolute;
     display: flex;
     background-image: url("../IMAGE/fundo.jpg");
-    background-size: cover;
-    background-position: top center;   
+    background-size: cover;  
 }
  #leaf{
+position: relative;
   margin: 35rem;
   margin-top: 2rem;
  }
