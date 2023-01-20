@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    background: linear-gradient(180deg, #f3d023 0%, #9f0c04 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.5rem 2.25rem;
+}
+
+.logo{
+    height: 8rem;
+    width: 33rem;
+}
+.row{
+    
+    display: flex;
+    background-image: url("../IMAGE/fundo.jpg");
+    background-size: cover;
+    background-position: top center;   
+}
+ #leaf{
+  margin: 35rem;
+  margin-top: 2rem;
+ }
