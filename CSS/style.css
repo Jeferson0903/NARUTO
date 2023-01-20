@@ -6,6 +6,7 @@
 }
 
 header{
+    position: relative;
     background: linear-gradient(180deg, #f3d023 0%, #9f0c04 100%);
     display: flex;
     align-items: center;
@@ -25,6 +26,7 @@ header{
     background-size: cover;  
 }
  #leaf{
+    display: flex;
 position: relative;
   margin: 35rem;
   margin-top: 2rem;
