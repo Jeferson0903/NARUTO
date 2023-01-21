@@ -6,6 +6,8 @@
 }
 
 header{
+    width: 100%;
+    width: 79rem;
     position: relative;
     background: linear-gradient(180deg, #f3d023 0%, #9f0c04 100%);
     display: flex;
