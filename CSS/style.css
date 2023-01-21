@@ -6,8 +6,7 @@
 }
 
 header{
-    width: 100%;
-    width: 79rem;
+   
     position: relative;
     background: linear-gradient(180deg, #f3d023 0%, #9f0c04 100%);
     display: flex;
@@ -15,11 +14,13 @@ header{
     justify-content: center;
 
     padding: 1.5rem 2.25rem;
+
 }
 
+
 .logo{
-    height: 8rem;
-    width: 33rem;
+    width:100%;
+    height: 7rem;
 }
 .row{
     position: absolute;
@@ -27,9 +28,37 @@ header{
     background-image: url("../IMAGE/fundo.jpg");
     background-size: cover;  
 }
- #leaf{
+
+#leaf{
+    gap: 20rem;
+}
+ .list-unstyled{
+    margin-top: 1.5rem;
+ 
+ }
+ li{
     display: flex;
-position: relative;
-  margin: 35rem;
-  margin-top: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .mr-3{
+    gap: 2rem;
+ }
+
+ .media-body{
+    width: 80%;
  }
