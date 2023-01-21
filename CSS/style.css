@@ -6,7 +6,7 @@
 }
 
 header{
-   
+   width: 100%;
     position: relative;
     background: linear-gradient(180deg, #f3d023 0%, #9f0c04 100%);
     display: flex;
@@ -16,7 +16,6 @@ header{
     padding: 1.5rem 2.25rem;
 
 }
-
 
 .logo{
     width:100%;
